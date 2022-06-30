@@ -37,7 +37,7 @@ if (tengoChampoo = true) {
 
 while(peloSucio = true) {
     peloChampoo = prompt("¿echarse champoo? responda si o no").toLowerCase()
-    if(peloChampoo = "si") {
+    if(peloChampoo == "si") {
         cantidadMl = prompt("Igrese la cantidad de ml de champoo(en número) que le va a echar")
         alert("Echándole champoo...")
         alert("lavando el pelo")
